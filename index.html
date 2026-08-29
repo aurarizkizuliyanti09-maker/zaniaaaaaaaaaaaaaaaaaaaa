@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Kamu, dari Laut</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stars" id="stars"></div>
+  <div class="moon"></div>
+
+  <div class="eyebrow">sebuah pesan, terapung sampai padamu</div>
+  <h1>Untuk zania, sayangku</h1>
+  <p class="sub">Ketuk botolnya untuk membuka pesan yang sudah lama menunggu di dasar laut.</p>
+
+  <div class="bottle-wrap" id="bottleWrap" role="button" tabindex="0" aria-label="Buka botol untuk membaca pesan">
+    <svg viewBox="0 0 160 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <!-- bottle body -->
+      <path d="M55 70 L55 40 C55 30 65 26 65 18 L95 18 C95 26 105 30 105 40 L105 70 C130 90 140 120 140 160 C140 210 115 245 80 245 C45 245 20 210 20 160 C20 120 30 90 55 70Z"
+            fill="rgba(159,232,216,0.14)" stroke="rgba(159,232,216,0.65)" stroke-width="2"/>
+      <!-- glass shine -->
+      <path d="M40 110 C34 140 34 175 46 205" stroke="rgba(244,236,220,0.35)" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <!-- letter peeking -->
+      <g class="letter-peek">
+        <rect x="58" y="55" width="44" height="60" rx="2" fill="#f4ecdc" stroke="#d8c9a3" stroke-width="1.5"/>
+        <line x1="65" y1="68" x2="95" y2="68" stroke="#c7b48a" stroke-width="1.5"/>
+        <line x1="65" y1="78" x2="95" y2="78" stroke="#c7b48a" stroke-width="1.5"/>
+        <line x1="65" y1="88" x2="88" y2="88" stroke="#c7b48a" stroke-width="1.5"/>
+      </g>
+      <!-- cork -->
+      <g class="cork">
+        <rect x="66" y="6" width="28" height="26" rx="4" fill="#c98a5b" stroke="#8a5a34" stroke-width="2"/>
+      </g>
+    </svg>
+    <div class="tap-hint">ketuk botol ↑</div>
+  </div>
+
+  <div class="waves" aria-hidden="true">
+    <svg class="wave-svg wave3" viewBox="0 0 800 160" preserveAspectRatio="none"><path d="M0 80 Q100 40 200 80 T400 80 T600 80 T800 80 V160 H0 Z" fill="#0b2f3c"/></svg>
+    <svg class="wave-svg wave2" viewBox="0 0 800 160" preserveAspectRatio="none"><path d="M0 90 Q100 55 200 90 T400 90 T600 90 T800 90 V160 H0 Z" fill="#123c4a"/></svg>
+    <svg class="wave-svg wave1" viewBox="0 0 800 160" preserveAspectRatio="none"><path d="M0 100 Q100 70 200 100 T400 100 T600 100 T800 100 V160 H0 Z" fill="#1c5d6e"/></svg>
+  </div>
+
+  <footer>terbawa arus, khusus untukmu</footer>
+
+  <div class="overlay" id="overlay">
+    <div class="letter">
+      <button class="close-btn" id="closeBtn" aria-label="Tutup surat">✕</button>
+      <p class="to">Untuk kamu yang selalu kupikirkan,</p>
+      <p class="msg">
+        Halo na? apa kabar? you seem so tired lately, i don't know what are u doin' right now but i hope everything is fine ya.
+        i wish i could be in jhs era again, and making memories with you na, i miss those days when we still together (8), but now, everyone has their path
+        and they're have a new friends too. actually i miss the days when we have fun together. Oh iya na, i want to say something to you, na kalo semisal 
+        everything make you feel tired, just remember that you have me, and i will always be here for you. of course i will always support you. and you have
+        any friends who support you. na i know you have a lot of things to do, but please take care of yourself first ya. seneng deh rasany ngeliat kamu semakin
+        berkembang, semoga kamu nggak merubah dri kamu untuk memenuhi ekspektasi orang lain ya na, aku slalu bangga sama kamu. be happy ya zania. kapan2 kalo ada
+        kesempatan, nonton eventnya nadia atau ismi atau fani bareng ya. lofyu na 
+      </p>
+      <p class="from">— dengan sayang, seseorang yang merindukanmu</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
